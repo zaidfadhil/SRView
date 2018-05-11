@@ -64,7 +64,7 @@ var button = sr.button()           // UIButton
 var textField = sr.textField()     // UITextField
 var textView = sr.textView()       // UITextView
 var slider = sr.slider()           // UISlider
-var switch = sr.Switch()           // UISwitch
+var Switch = sr.Switch()           // UISwitch
 var table = sr.table()             // UITableView
 var collection = sr.collection()   // UICollectionView
 ``` 
@@ -106,7 +106,7 @@ for full list click [HERE](https://github.com/DevZaid/SRView/blob/master/Sources
 - [ ] Add more UIViews like webView, segmentedView ... etc
 - [ ] Add more options
 - [ ] Make sr work as an Extension
-- [ ] Badges
+- [ ] More Badges
 
 ## License
 
