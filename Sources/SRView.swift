@@ -96,12 +96,12 @@ class rv {
         let view = UITextField()
         view.checkMask()
         guard let options = options else { return view }
-        var placeholder : String = ""
+        //let placeholder : String = ""
         for option in options {
             switch (option) {
             case let .text(value): view.text = value
             case let .font(value): view.font = value
-            case let .placeholder(value): view.placeholder = value; placeholder = value
+            case let .placeholder(value): view.placeholder = value; //placeholder = value
             case let .textAlignment(value): view.textAlignment = value
             case let .textColor(value): view.textColor = value
             case let .backgroundColor(value): view.backgroundColor = value
@@ -109,9 +109,9 @@ class rv {
             case let .clipsToBounds(value): view.clipsToBounds = value
             case let .alpha(value): view.alpha = value
             case let .attributedPlaceholder(value): view.attributedPlaceholder = value
-            case let .placeholderColor(value):
-                 view.attributedPlaceholder = NSAttributedString(string: placeholder,
-                                   attributes: [NSAttributedStringKey.foregroundColor : value])
+//            case let .placeholderColor(value):
+//                 view.attributedPlaceholder = NSAttributedString(string: placeholder,
+//                                   attributes: [NSAttributedStringKey.foregroundColor : value])
             default: break;
             }
         }
