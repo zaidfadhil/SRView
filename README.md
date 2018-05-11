@@ -2,9 +2,15 @@
 
 Swift Reusable Views 
 
-[![Cocoapods](https://img.shields.io/badge/Pod-0.0.1-0F81C1.svg)]()
+[![CocoaPods](https://img.shields.io/badge/Pod-0.0.1-0F81C1.svg)]()
 [![platform](https://img.shields.io/badge/Platform-iOS-989898.svg)]()
 [![Swift](https://img.shields.io/badge/Swift-4.1-orange.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-343434.svg)]()
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Pod-0.0.1-0F81C1.svg" alt="CocoaPods" />
+</p>
+
 
 ## Getting Started
 
