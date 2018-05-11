@@ -8,7 +8,7 @@
 
 import UIKit
 
-class rv {
+class sr {
     
     static func view(_ options:[SRVOptions]? = nil) -> UIView {
         let view = UIView()

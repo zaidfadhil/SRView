@@ -10,18 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var testView = rv.view([.backgroundColor(.red), .cornerRadius(5.0)])
+    var testLabel = sr.label([.text("Hello, World!"),
+                              .font(.boldSystemFont(ofSize: 20)),
+                              .textAlignment(.center)])
     
-    var normalView : UIView = {
-        var view = UIView()
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .red
-        view.layer.cornerRadius = 5.0
-        return view
-    }()
-
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
+        
+        view.addSubview(testLabel)
+        testLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        testLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        testLabel.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        testLabel.widthAnchor.constraint(equalToConstant: 200).isActive = true
+        
+        testLabel.applyShadow(color: .red, opacity: 0.4)
     }
-}
 
+}

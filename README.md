@@ -3,7 +3,7 @@
 Swift Reusable Views 
 
 [![build](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)]()
-[![Cocoapods](https://img.shields.io/badge/Pod-1.5-0F81C1.svg)]()
+[![Cocoapods](https://img.shields.io/badge/Pod-0.0.1-0F81C1.svg)]()
 [![platform](https://img.shields.io/badge/Platform-iOS-989898.svg)]()
 [![Swift](https://img.shields.io/badge/Swift-4.1-orange.svg)]()
 
@@ -14,7 +14,7 @@ doing the UI programmatically in Swift can sometimes be annoying because you hav
 ## Requirements
 
 - Xcode 9
-- Minimum deployment target is iOS 10. 
+- deployment target is iOS 10.
 
 ## Installation
 
@@ -31,13 +31,13 @@ or copy the Swift files from the [Sources](https://github.com/DevZaid/SRView/tre
 first thing import the SKView 
 
 ```swift
-import SKView
+import SRView
 ```
 
 #### use this 😃
 
 ```swift
-var view = rv.view([.backgroundColor(.red), .cornerRadius(5.0)])
+var view = sr.view([.backgroundColor(.red), .cornerRadius(5.0)])
 ```
 
 instead of this ❌
@@ -52,27 +52,36 @@ var view : UIView = {
 }()
 ```
 
+no need to set `translatesAutoresizingMaskIntoConstraints` to `false`
+
 #### Currently Supported UIViews
 
 ```swift
-var view = rv.view()               // UIView
-var image = rv.image()             // UIImageView
-var label = rv.label()             // UILabel
-var button = rv.button()           // UIButton
-var textField = rv.textField()     // UITextField
-var textView = rv.textView()       // UITextView
-var slider = rv.slider()           // UISlider
-var switch = rv.Switch()           // UISwitch
-var table = rv.table()             // UITableView
-var collection = rv.collection()   // UICollectionView
+var view = sr.view()               // UIView
+var image = sr.image()             // UIImageView
+var label = sr.label()             // UILabel
+var button = sr.button()           // UIButton
+var textField = sr.textField()     // UITextField
+var textView = sr.textView()       // UITextView
+var slider = sr.slider()           // UISlider
+var switch = sr.Switch()           // UISwitch
+var table = sr.table()             // UITableView
+var collection = sr.collection()   // UICollectionView
 ``` 
+
+more will be added later
 
 #### SRView Options
 
 must be added as an Array like this :
 
 ```swift
-var nameLabel = rv.label([.text("Hello World!"), .textColor(.red), .textAlignment(.center)])
+var nameLabel = sr.label([.text("Hello World!"), .textColor(.red), .textAlignment(.center)])
+
+or
+
+var options : [SRVOptions] = [.text("click me!"), .textColor(.red), .alpha(0.7)]
+let testView = sr.button(options)
 ```
 
 ```swift
@@ -92,6 +101,8 @@ etc
 for full list click [HERE](https://github.com/DevZaid/SRView/blob/master/Sources/SRVOptions.swift)
 
 ## License
+
+Made with ❤️ by [Zaid Amer](https://twitter.com/DevZaid)
 
 ```
 MIT License
