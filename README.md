@@ -2,7 +2,6 @@
 
 Swift Reusable Views 
 
-[![build](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)]()
 [![Cocoapods](https://img.shields.io/badge/Pod-0.0.1-0F81C1.svg)]()
 [![platform](https://img.shields.io/badge/Platform-iOS-989898.svg)]()
 [![Swift](https://img.shields.io/badge/Swift-4.1-orange.svg)]()
@@ -54,6 +53,7 @@ var view : UIView = {
 
 no need to set `translatesAutoresizingMaskIntoConstraints` to `false`
 
+
 #### Currently Supported UIViews
 
 ```swift
@@ -71,6 +71,7 @@ var collection = sr.collection()   // UICollectionView
 
 more will be added later
 
+
 #### SRView Options
 
 must be added as an Array like this :
@@ -83,7 +84,6 @@ var nameLabel = sr.label([.text("Hello World!"), .textColor(.red), .textAlignmen
 var options : [SRVOptions] = [.text("click me!"), .backgroundColor(.blue), .alpha(0.7)]
 let testButton = sr.button(options)
 ```
-
 
 
 ```swift
@@ -101,6 +101,12 @@ etc
 ```
 
 for full list click [HERE](https://github.com/DevZaid/SRView/blob/master/Sources/SRVOptions.swift)
+
+## Todo
+- [ ] Add more UIViews like webView, segmentedView ... etc
+- [ ] Add more options
+- [ ] Make sr work as an Extension
+- [ ] Badges
 
 ## License
 
