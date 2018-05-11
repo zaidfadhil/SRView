@@ -53,7 +53,6 @@ var view : UIView = {
 ```
 
 no need to set `translatesAutoresizingMaskIntoConstraints` to `false`
--------------
 
 #### Currently Supported UIViews
 
@@ -71,7 +70,6 @@ var collection = sr.collection()   // UICollectionView
 ``` 
 
 more will be added later
--------------
 
 #### SRView Options
 
@@ -83,10 +81,10 @@ var nameLabel = sr.label([.text("Hello World!"), .textColor(.red), .textAlignmen
 // OR
 
 var options : [SRVOptions] = [.text("click me!"), .backgroundColor(.blue), .alpha(0.7)]
-let testView = sr.button(options)
+let testButton = sr.button(options)
 ```
 
-the list of options :
+
 
 ```swift
 case alpha(CGFloat)
