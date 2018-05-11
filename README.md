@@ -2,7 +2,7 @@
 
 Swift Reusable Views 
 
-[![build](https://img.shields.io/travis/USER/REPO.svg)]()
+[![build](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)]()
 [![Cocoapods](https://img.shields.io/badge/Pod-1.5-0F81C1.svg)]()
 [![platform](https://img.shields.io/badge/Platform-iOS-989898.svg)]()
 [![Swift](https://img.shields.io/badge/Swift-4.1-orange.svg)]()
@@ -24,7 +24,7 @@ doing the UI programmatically in Swift can sometimes be annoying because you hav
 pod 'SRView'
 ```
 
-or copy the Swift files from the Sources Folder
+or copy the Swift files from the [Sources](https://github.com/DevZaid/SRView/tree/master/Sources) Folder
 
 ## How to use
 
@@ -34,13 +34,13 @@ first thing import the SKView
 import SKView
 ```
 
-#### user this 
+#### use this 😃
 
 ```swift
 var view = rv.view([.backgroundColor(.red), .cornerRadius(5.0)])
 ```
 
-instead of this
+instead of this ❌
 
 ```swift
 var view : UIView = {
@@ -51,6 +51,45 @@ var view : UIView = {
     return view
 }()
 ```
+
+#### Currently Supported UIViews
+
+```swift
+var view = rv.view()               // UIView
+var image = rv.image()             // UIImageView
+var label = rv.label()             // UILabel
+var button = rv.button()           // UIButton
+var textField = rv.textField()     // UITextField
+var textView = rv.textView()       // UITextView
+var slider = rv.slider()           // UISlider
+var switch = rv.Switch()           // UISwitch
+var table = rv.table()             // UITableView
+var collection = rv.collection()   // UICollectionView
+``` 
+
+#### SRView Options
+
+must be added as an Array like this :
+
+```swift
+var nameLabel = rv.label([.text("Hello World!"), .textColor(.red), .textAlignment(.center)])
+```
+
+```swift
+case alpha(CGFloat)
+case numberOfLines(Int)
+case backgroundColor(UIColor)
+case tintColor(UIColor)
+case textColor(UIColor)
+case clipsToBounds(Bool)
+case cornerRadius(CGFloat)
+.
+.
+.
+etc
+```
+
+for full list click [HERE](https://github.com/DevZaid/SRView/blob/master/Sources/SRVOptions.swift)
 
 ## License
 
