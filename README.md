@@ -2,27 +2,27 @@
 
 Swift Reusable Views 
 
+<p align="center">
+    <img src="https://i.imgur.com/SUvbjZg.png" alt="code image"/>
+</p>
+<!-- 
 [![CocoaPods](https://img.shields.io/badge/Pod-0.0.1-0F81C1.svg)]()
 [![Platform](https://img.shields.io/badge/Platform-iOS-989898.svg)]()
 [![Swift](https://img.shields.io/badge/Swift-4.1-orange.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)]() -->
 
-<!-- <p align="center">
+<p align="center">
     <img src="https://img.shields.io/badge/Pod-0.0.1-0F81C1.svg" alt="CocoaPods" />
     <img src="https://img.shields.io/badge/Platform-iOS-989898.svg" alt="Platform" />
     <img src="https://img.shields.io/badge/Swift-4.1-orange.svg" alt="Swift" />
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License" />
-</p> -->
+</p>
 
 
 ## Getting Started
 
-doing the UI programmatically in Swift can sometimes be annoying because you have to define all these UI variables that contains another UI class inside it, its really messed up and annoying to deal with if you ask me,
-
-## Requirements
-
-- Xcode 9
-- deployment target is iOS 10.
+doing the UI programmatically in Swift can sometimes be annoying because you have to define all these UI letiables that return another UI class inside it, its really messed up and annoying to deal with if you ask me.
+With SRView things are much simpler just define a view of type sr and add you options and you are good to go
 
 ## Installation
 
@@ -45,13 +45,13 @@ import SRView
 #### use this 😃
 
 ```swift
-var view = sr.view([.backgroundColor(.red), .cornerRadius(5.0)])
+let view = sr.view([.backgroundColor(.red), .cornerRadius(5.0)])
 ```
 
 instead of this ❌
 
 ```swift
-var view : UIView = {
+let view : UIView = {
     var view = UIView()
     view.translatesAutoresizingMaskIntoConstraints = false
     view.backgroundColor = .red
@@ -66,16 +66,16 @@ no need to set `translatesAutoresizingMaskIntoConstraints` to `false`
 #### Currently Supported UIViews
 
 ```swift
-var view = sr.view()               // UIView
-var image = sr.image()             // UIImageView
-var label = sr.label()             // UILabel
-var button = sr.button()           // UIButton
-var textField = sr.textField()     // UITextField
-var textView = sr.textView()       // UITextView
-var slider = sr.slider()           // UISlider
-var Switch = sr.Switch()           // UISwitch
-var table = sr.table()             // UITableView
-var collection = sr.collection()   // UICollectionView
+let view = sr.view()               // UIView
+let image = sr.image()             // UIImageView
+let label = sr.label()             // UILabel
+let button = sr.button()           // UIButton
+let textField = sr.textField()     // UITextField
+let textView = sr.textView()       // UITextView
+let slider = sr.slider()           // UISlider
+let Switch = sr.Switch()           // UISwitch
+let table = sr.table()             // UITableView
+let collection = sr.collection()   // UICollectionView
 ``` 
 
 more will be added later
@@ -83,14 +83,14 @@ more will be added later
 
 #### SRView Options
 
-must be added as an Array like this :
+must be added as an Array of options :
 
 ```swift
-var nameLabel = sr.label([.text("Hello World!"), .textColor(.red), .textAlignment(.center)])
+let nameLabel = sr.label([.text("Hello World!"), .textColor(.red), .textAlignment(.center)])
 
 // OR
 
-var options : [SRVOptions] = [.text("click me!"), .backgroundColor(.blue), .alpha(0.7)]
+let options : [SRVOptions] = [.text("click me!"), .backgroundColor(.blue), .alpha(0.7)]
 let testButton = sr.button(options)
 ```
 

@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+        
     var testLabel = sr.label([.text("Hello, World!"),
                               .font(.boldSystemFont(ofSize: 20)),
                               .textAlignment(.center)])
