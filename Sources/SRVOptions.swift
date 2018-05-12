@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum SRVOptions {
+public enum SRVOptions {
     case alpha(CGFloat)
     case numberOfLines(Int)
     case backgroundColor(UIColor)

@@ -8,9 +8,9 @@
 
 import UIKit
 
-class sr {
+public class sr {
     
-    static func view(_ options:[SRVOptions]? = nil) -> UIView {
+    public static func view(_ options:[SRVOptions]? = nil) -> UIView {
         let view = UIView()
         view.checkMask()
         guard let options = options else { return view }
@@ -26,7 +26,7 @@ class sr {
         return view
     }
     
-    static func image(_ options:[SRVOptions]? = nil) -> UIImageView {
+    public static func image(_ options:[SRVOptions]? = nil) -> UIImageView {
         let view = UIImageView()
         view.checkMask()
         guard let options = options else { return view }
@@ -46,7 +46,7 @@ class sr {
         return view
     }
     
-    static func label(_ options:[SRVOptions]? = nil) -> UILabel {
+    public static func label(_ options:[SRVOptions]? = nil) -> UILabel {
         let view = UILabel()
         view.checkMask()
         guard let options = options else { return view }
@@ -67,7 +67,7 @@ class sr {
         return view
     }
     
-    static func button(_ options:[SRVOptions]? = nil) -> UIButton {
+    public static func button(_ options:[SRVOptions]? = nil) -> UIButton {
         let view = UIButton()
         view.checkMask()
         guard let options = options else { return view }
@@ -92,7 +92,7 @@ class sr {
         return view
     }
     
-    static func textField(_ options:[SRVOptions]? = nil) -> UITextField {
+    public static func textField(_ options:[SRVOptions]? = nil) -> UITextField {
         let view = UITextField()
         view.checkMask()
         guard let options = options else { return view }
@@ -114,7 +114,7 @@ class sr {
         return view
     }
     
-    static func textView(_ options:[SRVOptions]? = nil) -> UITextView {
+    public static func textView(_ options:[SRVOptions]? = nil) -> UITextView {
         let view = UITextView()
         view.checkMask()
         guard let options = options else { return view }
@@ -134,7 +134,7 @@ class sr {
         return view
     }
     
-    static func slider(_ options:[SRVOptions]? = nil) -> UISlider {
+    public static func slider(_ options:[SRVOptions]? = nil) -> UISlider {
         let view = UISlider()
         view.checkMask()
         guard let options = options else { return view }
@@ -157,7 +157,7 @@ class sr {
         return view
     }
     
-    static func Switch(_ options:[SRVOptions]? = nil) -> UISwitch {
+    public static func Switch(_ options:[SRVOptions]? = nil) -> UISwitch {
         let view = UISwitch()
         view.checkMask()
         guard let options = options else { return view }
@@ -176,7 +176,7 @@ class sr {
     }
     
     // TableView SRVOptions MAY not work ... for now 😅
-    static func table(_ options:[SRVOptions]? = nil) -> UITableView {
+    public static func table(_ options:[SRVOptions]? = nil) -> UITableView {
         let view = UITableView()
         view.checkMask()
         guard let options = options else { return view }
@@ -195,7 +195,7 @@ class sr {
         return view
     }
 
-    static func collection(_ options:[SRVOptions]? = nil) -> UICollectionView {
+    public static func collection(_ options:[SRVOptions]? = nil) -> UICollectionView {
         var view = UICollectionView()
         view = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout.layout())
         view.checkMask()
