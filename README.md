@@ -3,7 +3,7 @@
 Swift Reusable Views 
 
 <p align="center">
-	<img src="Assets/banner.svg"/>
+	<img src="Assets/snp.svg"/>
 </p>
 <!-- 
 [![CocoaPods](https://img.shields.io/badge/Pod-0.0.1-0F81C1.svg)]()
