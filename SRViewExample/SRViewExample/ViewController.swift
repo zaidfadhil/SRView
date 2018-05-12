@@ -9,11 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-        
+    
     var testLabel = sr.label([.text("Hello, World!"),
                               .font(.boldSystemFont(ofSize: 20)),
                               .textAlignment(.center)])
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
