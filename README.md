@@ -1,7 +1,5 @@
 # SRView
 
-Swift Reusable Views 
-
 <p align="center">
 	<img src="Assets/snp.svg"/>
 </p>
@@ -42,25 +40,13 @@ first thing import the SKView
 import SRView
 ```
 
-#### use this 😃
+#### Then
 
 ```swift
 let view = sr.view([.backgroundColor(.red), .cornerRadius(5.0)])
 ```
 
-instead of this ❌
-
-```swift
-let view : UIView = {
-    var view = UIView()
-    view.translatesAutoresizingMaskIntoConstraints = false
-    view.backgroundColor = .red
-    view.layer.cornerRadius = 5.0
-    return view
-}()
-```
-
-no need to set `translatesAutoresizingMaskIntoConstraints` to `false`
+NO need to set `translatesAutoresizingMaskIntoConstraints` to `false`
 
 
 #### Currently Supported UIViews

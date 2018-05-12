@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1060px" height="600px" viewBox="0 0 1060 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1090px" height="600px" viewBox="0 0 1090 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
     <title>snp</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="1024" height="564.48" rx="22"></rect>
-        <filter x="-3.0%" y="-4.1%" width="106.1%" height="111.0%" filterUnits="objectBoundingBox" id="filter-2">
+        <rect id="path-1" x="0" y="0" width="1054" height="564.48" rx="22"></rect>
+        <filter x="-2.9%" y="-4.1%" width="105.9%" height="111.0%" filterUnits="objectBoundingBox" id="filter-2">
             <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
@@ -23,77 +23,77 @@
                 <ellipse id="Oval" fill="#2FC94F" cx="121.260203" cy="16.8791209" rx="16.8416949" ry="16.8791209"></ellipse>
             </g>
             <text id="//-use-This-😃-let-v" font-family="SFMono-Bold, SF Mono" font-size="24" font-weight="bold">
-                <tspan x="37" y="139" fill="#4DC156">// use </tspan>
-                <tspan x="140.851562" y="139" font-family="SFMono-Heavy, SF Mono" font-weight="600" fill="#4DC156">This</tspan>
-                <tspan x="200.195312" y="139" fill="#FFFFFF"> </tspan>
-                <tspan x="215.03125" y="139" font-family="AppleColorEmoji, Apple Color Emoji" font-weight="normal" fill="#FFFFFF">😃</tspan>
-                <tspan x="240.03125" y="139" fill="#FFFFFF"></tspan>
-                <tspan x="37" y="171" fill="#C2349A">let</tspan>
-                <tspan x="81.5078125" y="171" fill="#FFFFFF"> view = </tspan>
-                <tspan x="200.195312" y="171" fill="#94C86A">sr</tspan>
-                <tspan x="229.867188" y="171" fill="#FFFFFF">.</tspan>
-                <tspan x="244.703125" y="171" fill="#93C965">view</tspan>
-                <tspan x="304.046875" y="171" fill="#FFFFFF">([.</tspan>
-                <tspan x="348.554688" y="171" fill="#93C965">backgroundColor</tspan>
-                <tspan x="571.09375" y="171" fill="#FFFFFF">(.</tspan>
-                <tspan x="600.765625" y="171" fill="#01B0CB">red</tspan>
-                <tspan x="645.273438" y="171" fill="#FFFFFF">), .</tspan>
-                <tspan x="704.617188" y="171" fill="#93C965">cornerRadius</tspan>
-                <tspan x="882.648438" y="171" fill="#FFFFFF">(</tspan>
-                <tspan x="897.484375" y="171" fill="#8C87D5">5.0</tspan>
-                <tspan x="941.992188" y="171" fill="#FFFFFF">)])</tspan>
-                <tspan x="37" y="200" fill="#FFFFFF"></tspan>
-                <tspan x="37" y="229" fill="#FFFFFF"></tspan>
-                <tspan x="37" y="258" fill="#FFFFFF"></tspan>
-                <tspan x="37" y="287" fill="#4DC156">// insted of </tspan>
-                <tspan x="229.867188" y="287" font-family="SFMono-Heavy, SF Mono" font-weight="600" fill="#4DC156">This</tspan>
-                <tspan x="289.210938" y="287" fill="#4DC156"> </tspan>
-                <tspan x="304.046875" y="287" font-family="AppleColorEmoji, Apple Color Emoji" font-weight="normal" fill="#4DC156">❌</tspan>
-                <tspan x="37" y="319" fill="#C2349A">let</tspan>
-                <tspan x="81.5078125" y="319" fill="#4DC156"> </tspan>
-                <tspan x="96.34375" y="319" fill="#FFFFFF">view :</tspan>
-                <tspan x="185.359375" y="319" fill="#4DC156"> </tspan>
-                <tspan x="200.195312" y="319" fill="#01B0CB">UIView</tspan>
-                <tspan x="289.210938" y="319" fill="#4DC156"> </tspan>
-                <tspan x="304.046875" y="319" fill="#FFFFFF">= {</tspan>
-                <tspan x="348.554688" y="319" fill="#4DC156"></tspan>
-                <tspan x="37" y="348" fill="#4DC156">    </tspan>
-                <tspan x="96.34375" y="348" fill="#C2349A">var</tspan>
-                <tspan x="140.851562" y="348" fill="#4DC156"> </tspan>
-                <tspan x="155.6875" y="348" fill="#FFFFFF">view =</tspan>
-                <tspan x="244.703125" y="348" fill="#4DC156"> </tspan>
-                <tspan x="259.539062" y="348" fill="#01B0CB">UIView</tspan>
-                <tspan x="348.554688" y="348" fill="#FFFFFF">()</tspan>
-                <tspan x="378.226562" y="348" fill="#4DC156"></tspan>
-                <tspan x="37" y="377" fill="#4DC156">    </tspan>
-                <tspan x="96.34375" y="377" fill="#FFFFFF">view.</tspan>
-                <tspan x="170.523438" y="377" fill="#01B0CB">translatesAutoresizingMaskIntoConstraints</tspan>
-                <tspan x="778.796875" y="377" fill="#4DC156"> </tspan>
-                <tspan x="793.632812" y="377" fill="#FFFFFF">=</tspan>
-                <tspan x="808.46875" y="377" fill="#4DC156"> </tspan>
-                <tspan x="823.304688" y="377" fill="#C2349A">false</tspan>
-                <tspan x="897.484375" y="377" fill="#4DC156"></tspan>
-                <tspan x="37" y="406" fill="#4DC156">    </tspan>
-                <tspan x="96.34375" y="406" fill="#FFFFFF">view.</tspan>
-                <tspan x="170.523438" y="406" fill="#01B0CB">backgroundColor</tspan>
-                <tspan x="393.0625" y="406" fill="#4DC156"> </tspan>
-                <tspan x="407.898438" y="406" fill="#FFFFFF">= .</tspan>
-                <tspan x="452.40625" y="406" fill="#01B0CB">red</tspan>
-                <tspan x="496.914062" y="406" fill="#4DC156"></tspan>
-                <tspan x="37" y="435" fill="#4DC156">    </tspan>
-                <tspan x="96.34375" y="435" fill="#FFFFFF">view.</tspan>
-                <tspan x="170.523438" y="435" fill="#01B0CB">layer.cornerRadius</tspan>
-                <tspan x="437.570312" y="435" fill="#4DC156"> </tspan>
-                <tspan x="452.40625" y="435" fill="#FFFFFF">=</tspan>
-                <tspan x="467.242188" y="435" fill="#4DC156"> </tspan>
-                <tspan x="482.078125" y="435" fill="#8C87D5">5.0</tspan>
-                <tspan x="526.585938" y="435" fill="#4DC156"></tspan>
-                <tspan x="37" y="464" fill="#4DC156">    </tspan>
-                <tspan x="96.34375" y="464" fill="#C2349A">return</tspan>
-                <tspan x="185.359375" y="464" fill="#4DC156"> </tspan>
-                <tspan x="200.195312" y="464" fill="#FFFFFF">view</tspan>
-                <tspan x="259.539062" y="464" fill="#4DC156"></tspan>
-                <tspan x="37" y="493" fill="#FFFFFF">}()</tspan>
+                <tspan x="43" y="131" fill="#4DC156">// use </tspan>
+                <tspan x="146.851562" y="131" font-family="SFMono-Heavy, SF Mono" font-weight="600" fill="#4DC156">This</tspan>
+                <tspan x="206.195312" y="131" fill="#FFFFFF"> </tspan>
+                <tspan x="221.03125" y="131" font-family="AppleColorEmoji, Apple Color Emoji" font-weight="normal" fill="#FFFFFF">😃</tspan>
+                <tspan x="246.03125" y="131" fill="#FFFFFF"></tspan>
+                <tspan x="43" y="163" fill="#C2349A">let </tspan>
+                <tspan x="102.34375" y="163" fill="#FFFFFF">view = </tspan>
+                <tspan x="206.195312" y="163" fill="#94C86A">sr</tspan>
+                <tspan x="235.867188" y="163" fill="#FFFFFF">.</tspan>
+                <tspan x="250.703125" y="163" fill="#93C965">view</tspan>
+                <tspan x="310.046875" y="163" fill="#FFFFFF">([.</tspan>
+                <tspan x="354.554688" y="163" fill="#93C965">backgroundColor</tspan>
+                <tspan x="577.09375" y="163" fill="#FFFFFF">(.</tspan>
+                <tspan x="606.765625" y="163" fill="#01B0CB">red</tspan>
+                <tspan x="651.273438" y="163" fill="#FFFFFF">), .</tspan>
+                <tspan x="710.617188" y="163" fill="#93C965">cornerRadius</tspan>
+                <tspan x="888.648438" y="163" fill="#FFFFFF">(</tspan>
+                <tspan x="903.484375" y="163" fill="#8C87D5">5.0</tspan>
+                <tspan x="947.992188" y="163" fill="#FFFFFF">)])</tspan>
+                <tspan x="43" y="192" fill="#FFFFFF"></tspan>
+                <tspan x="43" y="221" fill="#FFFFFF"></tspan>
+                <tspan x="43" y="250" fill="#FFFFFF"></tspan>
+                <tspan x="43" y="279" fill="#4DC156">// insted of </tspan>
+                <tspan x="235.867188" y="279" font-family="SFMono-Heavy, SF Mono" font-weight="600" fill="#4DC156">This</tspan>
+                <tspan x="295.210938" y="279" fill="#4DC156"> </tspan>
+                <tspan x="310.046875" y="279" font-family="AppleColorEmoji, Apple Color Emoji" font-weight="normal" fill="#4DC156">❌</tspan>
+                <tspan x="43" y="311" fill="#C2349A">let</tspan>
+                <tspan x="87.5078125" y="311" fill="#4DC156"> </tspan>
+                <tspan x="102.34375" y="311" fill="#FFFFFF">view :</tspan>
+                <tspan x="191.359375" y="311" fill="#4DC156"> </tspan>
+                <tspan x="206.195312" y="311" fill="#01B0CB">UIView</tspan>
+                <tspan x="295.210938" y="311" fill="#4DC156"> </tspan>
+                <tspan x="310.046875" y="311" fill="#FFFFFF">= {</tspan>
+                <tspan x="354.554688" y="311" fill="#4DC156"></tspan>
+                <tspan x="43" y="340" fill="#4DC156">    </tspan>
+                <tspan x="102.34375" y="340" fill="#C2349A">var</tspan>
+                <tspan x="146.851562" y="340" fill="#4DC156"> </tspan>
+                <tspan x="161.6875" y="340" fill="#FFFFFF">view =</tspan>
+                <tspan x="250.703125" y="340" fill="#4DC156"> </tspan>
+                <tspan x="265.539062" y="340" fill="#01B0CB">UIView</tspan>
+                <tspan x="354.554688" y="340" fill="#FFFFFF">()</tspan>
+                <tspan x="384.226562" y="340" fill="#4DC156"></tspan>
+                <tspan x="43" y="369" fill="#4DC156">    </tspan>
+                <tspan x="102.34375" y="369" fill="#FFFFFF">view.</tspan>
+                <tspan x="176.523438" y="369" fill="#01B0CB">translatesAutoresizingMaskIntoConstraints</tspan>
+                <tspan x="784.796875" y="369" fill="#4DC156"> </tspan>
+                <tspan x="799.632812" y="369" fill="#FFFFFF">=</tspan>
+                <tspan x="814.46875" y="369" fill="#4DC156"> </tspan>
+                <tspan x="829.304688" y="369" fill="#C2349A">false</tspan>
+                <tspan x="903.484375" y="369" fill="#4DC156"></tspan>
+                <tspan x="43" y="398" fill="#4DC156">    </tspan>
+                <tspan x="102.34375" y="398" fill="#FFFFFF">view.</tspan>
+                <tspan x="176.523438" y="398" fill="#01B0CB">backgroundColor</tspan>
+                <tspan x="399.0625" y="398" fill="#4DC156"> </tspan>
+                <tspan x="413.898438" y="398" fill="#FFFFFF">= .</tspan>
+                <tspan x="458.40625" y="398" fill="#01B0CB">red</tspan>
+                <tspan x="502.914062" y="398" fill="#4DC156"></tspan>
+                <tspan x="43" y="427" fill="#4DC156">    </tspan>
+                <tspan x="102.34375" y="427" fill="#FFFFFF">view.</tspan>
+                <tspan x="176.523438" y="427" fill="#01B0CB">layer.cornerRadius</tspan>
+                <tspan x="443.570312" y="427" fill="#4DC156"> </tspan>
+                <tspan x="458.40625" y="427" fill="#FFFFFF">=</tspan>
+                <tspan x="473.242188" y="427" fill="#4DC156"> </tspan>
+                <tspan x="488.078125" y="427" fill="#8C87D5">5.0</tspan>
+                <tspan x="532.585938" y="427" fill="#4DC156"></tspan>
+                <tspan x="43" y="456" fill="#4DC156">    </tspan>
+                <tspan x="102.34375" y="456" fill="#C2349A">return</tspan>
+                <tspan x="191.359375" y="456" fill="#4DC156"> </tspan>
+                <tspan x="206.195312" y="456" fill="#FFFFFF">view</tspan>
+                <tspan x="265.539062" y="456" fill="#4DC156"></tspan>
+                <tspan x="43" y="485" fill="#FFFFFF">}()</tspan>
             </text>
         </g>
     </g>
