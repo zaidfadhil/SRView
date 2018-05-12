@@ -43,7 +43,7 @@ import SRView
 #### Then
 
 ```swift
-let view = sr.view([.backgroundColor(.red), .cornerRadius(5.0)])
+let view = sr.view([.backgroundColor(.red), .cornerRadius(5.0)]) // UIView
 ```
 
 NO need to set `translatesAutoresizingMaskIntoConstraints` to `false`
@@ -72,7 +72,7 @@ more will be added later
 must be added as an Array of options :
 
 ```swift
-let nameLabel = sr.label([.text("Hello World!"), .textColor(.red), .textAlignment(.center)])
+let textLabel = sr.label([.text("Hello World!"), .textColor(.red), .textAlignment(.center)])
 
 // OR
 
