@@ -10,7 +10,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)]() -->
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Pod-0.0.1-0F81C1.svg" alt="CocoaPods" />
+    <img src="https://img.shields.io/badge/Pod-0.0.4-0F81C1.svg" alt="CocoaPods" />
     <img src="https://img.shields.io/badge/Platform-iOS-989898.svg" alt="Platform" />
     <img src="https://img.shields.io/badge/Swift-4.1-orange.svg" alt="Swift" />
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License" />

@@ -9,12 +9,12 @@
 import UIKit
 
 extension UIView {
-    func checkMask()  {
+    public func checkMask()  {
         if translatesAutoresizingMaskIntoConstraints {
             self.translatesAutoresizingMaskIntoConstraints = false
         }
     }
-    func applyShadow(color:UIColor = .black,
+    public func applyShadow(color:UIColor = .black,
                      offset:CGSize = CGSize(width: 0, height: 2),
                      opacity:Float = 0.1,
                      redius:CGFloat = 2) {
@@ -27,7 +27,7 @@ extension UIView {
 }
 
 extension UICollectionViewFlowLayout {
-    static func layout(edges: UIEdgeInsets = .zero, direction: UICollectionViewScrollDirection = .vertical) -> UICollectionViewFlowLayout {
+    public static func layout(edges: UIEdgeInsets = .zero, direction: UICollectionViewScrollDirection = .vertical) -> UICollectionViewFlowLayout {
         let layout = UICollectionViewFlowLayout()
         layout.minimumInteritemSpacing = 0
         layout.minimumLineSpacing = 0

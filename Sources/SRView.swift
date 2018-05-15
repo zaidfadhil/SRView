@@ -175,7 +175,6 @@ public class sr {
         return view
     }
     
-    // TableView SRVOptions MAY not work ... for now 😅
     public static func table(_ options:[SRVOptions]? = nil) -> UITableView {
         let view = UITableView()
         view.checkMask()
@@ -196,8 +195,7 @@ public class sr {
     }
 
     public static func collection(_ options:[SRVOptions]? = nil) -> UICollectionView {
-        var view = UICollectionView()
-        view = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout.layout())
+        var view = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout.layout())
         view.checkMask()
         guard let options = options else { return view }
         for option in options {

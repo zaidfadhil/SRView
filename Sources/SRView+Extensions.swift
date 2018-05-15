@@ -10,7 +10,7 @@ import UIKit
 
 // under work ....
 extension UIView {
-    static func srv(_ options:[SRVOptions]? = nil) -> UIView {
+     public static func srv(_ options:[SRVOptions]? = nil) -> UIView {
         return sr.view(options)
     }
 }
