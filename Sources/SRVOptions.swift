@@ -16,7 +16,7 @@ public enum SRVOptions {
     case textColor(UIColor)
     case clipsToBounds(Bool)
     case cornerRadius(CGFloat)
-    case contentMode(UIViewContentMode)
+    case contentMode(UIView.ContentMode)
     case image(UIImage)
     case icon(UIImage)
     case frame(CGRect)
@@ -31,14 +31,14 @@ public enum SRVOptions {
     case maskConstraints(Bool) // translatesAutoresizingMaskIntoConstraints
     
     // UITableView Components
-    case separatorStyle(UITableViewCellSeparatorStyle)
+    case separatorStyle(UITableViewCell.SeparatorStyle)
     case rowHeight(CGFloat)
     
     // UICollectionView Components
     case verticalIndicator(Bool) // showsVerticalScrollIndicator
     case horizontalIndicator(Bool) // showsHorizontalScrollIndicator
     case flowLayout(UICollectionViewFlowLayout) // UICollectionViewFlowLayout
-    case scrollDirection(UICollectionViewScrollDirection) // UICollectionViewScrollDirection
+    case scrollDirection(UICollectionView.ScrollDirection) // UICollectionViewScrollDirection
     
     // UISlider Components
     case value(Float)

@@ -27,7 +27,7 @@ extension UIView {
 }
 
 extension UICollectionViewFlowLayout {
-    public static func layout(edges: UIEdgeInsets = .zero, direction: UICollectionViewScrollDirection = .vertical) -> UICollectionViewFlowLayout {
+    public static func layout(edges: UIEdgeInsets = .zero, direction: UICollectionView.ScrollDirection = .vertical) -> UICollectionViewFlowLayout {
         let layout = UICollectionViewFlowLayout()
         layout.minimumInteritemSpacing = 0
         layout.minimumLineSpacing = 0
