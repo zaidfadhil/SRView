@@ -29,6 +29,9 @@ public enum SRVOptions {
     case placeholderColor(UIColor)
     case attributedPlaceholder(NSAttributedString)
     case maskConstraints(Bool) // translatesAutoresizingMaskIntoConstraints
+    case borderColor(UIColor)
+    case borderWidth(CGFloat)
+
     
     // UITableView Components
     case separatorStyle(UITableViewCell.SeparatorStyle)

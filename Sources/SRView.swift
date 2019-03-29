@@ -18,6 +18,8 @@ public class sr {
             switch (option) {
             case let .backgroundColor(value): view.backgroundColor = value
             case let .cornerRadius(value): view.layer.cornerRadius = value
+            case let .borderColor(value): view.layer.borderColor = value.cgColor
+            case let .borderWidth(value): view.layer.borderWidth = value
             case let .clipsToBounds(value): view.clipsToBounds = value
             case let .alpha(value): view.alpha = value
             default: break;
@@ -38,6 +40,8 @@ public class sr {
             case let .contentMode(value): view.contentMode = value
             case let .backgroundColor(value): view.backgroundColor = value
             case let .cornerRadius(value): view.layer.cornerRadius = value
+            case let .borderColor(value): view.layer.borderColor = value.cgColor
+            case let .borderWidth(value): view.layer.borderWidth = value
             case let .clipsToBounds(value): view.clipsToBounds = value
             case let .alpha(value): view.alpha = value
             default: break;
@@ -59,6 +63,8 @@ public class sr {
             case let .textColor(value): view.textColor = value
             case let .backgroundColor(value): view.backgroundColor = value
             case let .cornerRadius(value): view.layer.cornerRadius = value
+            case let .borderColor(value): view.layer.borderColor = value.cgColor
+            case let .borderWidth(value): view.layer.borderWidth = value
             case let .clipsToBounds(value): view.clipsToBounds = value
             case let .alpha(value): view.alpha = value
             default: break;
@@ -78,6 +84,8 @@ public class sr {
             case let .font(value): view.titleLabel?.font = value
             case let .backgroundColor(value): view.backgroundColor = value
             case let .cornerRadius(value): view.layer.cornerRadius = value
+            case let .borderColor(value): view.layer.borderColor = value.cgColor
+            case let .borderWidth(value): view.layer.borderWidth = value
             case let .clipsToBounds(value): view.clipsToBounds = value
             case let .alpha(value): view.alpha = value
             case let .tintColor(value): view.tintColor = value
@@ -105,6 +113,8 @@ public class sr {
             case let .textColor(value): view.textColor = value
             case let .backgroundColor(value): view.backgroundColor = value
             case let .cornerRadius(value): view.layer.cornerRadius = value
+            case let .borderColor(value): view.layer.borderColor = value.cgColor
+            case let .borderWidth(value): view.layer.borderWidth = value
             case let .clipsToBounds(value): view.clipsToBounds = value
             case let .alpha(value): view.alpha = value
             case let .attributedPlaceholder(value): view.attributedPlaceholder = value
@@ -126,6 +136,8 @@ public class sr {
             case let .textColor(value): view.textColor = value
             case let .backgroundColor(value): view.backgroundColor = value
             case let .cornerRadius(value): view.layer.cornerRadius = value
+            case let .borderColor(value): view.layer.borderColor = value.cgColor
+            case let .borderWidth(value): view.layer.borderWidth = value
             case let .clipsToBounds(value): view.clipsToBounds = value
             case let .alpha(value): view.alpha = value
             default: break;
@@ -149,6 +161,8 @@ public class sr {
             case let .setThumbImage(value): view.setThumbImage(value, for: .normal)
             case let .backgroundColor(value): view.backgroundColor = value
             case let .cornerRadius(value): view.layer.cornerRadius = value
+            case let .borderColor(value): view.layer.borderColor = value.cgColor
+            case let .borderWidth(value): view.layer.borderWidth = value
             case let .clipsToBounds(value): view.clipsToBounds = value
             case let .alpha(value): view.alpha = value
             default: break;
@@ -167,6 +181,8 @@ public class sr {
             case let .tintColor(value): view.onTintColor = value
             case let .backgroundColor(value): view.backgroundColor = value
             case let .cornerRadius(value): view.layer.cornerRadius = value
+            case let .borderColor(value): view.layer.borderColor = value.cgColor
+            case let .borderWidth(value): view.layer.borderWidth = value
             case let .clipsToBounds(value): view.clipsToBounds = value
             case let .alpha(value): view.alpha = value
             default: break;
@@ -186,6 +202,8 @@ public class sr {
             case let .verticalIndicator(value): view.showsVerticalScrollIndicator = value
             case let .backgroundColor(value): view.backgroundColor = value
             case let .cornerRadius(value): view.layer.cornerRadius = value
+            case let .borderColor(value): view.layer.borderColor = value.cgColor
+            case let .borderWidth(value): view.layer.borderWidth = value
             case let .clipsToBounds(value): view.clipsToBounds = value
             case let .alpha(value): view.alpha = value
             default: break;
@@ -205,6 +223,8 @@ public class sr {
             case let .verticalIndicator(value): view.showsVerticalScrollIndicator = value
             case let .backgroundColor(value): view.backgroundColor = value
             case let .cornerRadius(value): view.layer.cornerRadius = value
+            case let .borderColor(value): view.layer.borderColor = value.cgColor
+            case let .borderWidth(value): view.layer.borderWidth = value
             case let .clipsToBounds(value): view.clipsToBounds = value
             case let .alpha(value): view.alpha = value
             default: break;
