@@ -104,9 +104,6 @@ for full list click [HERE](https://github.com/DevZaid/SRView/blob/master/Sources
 - [ ] More Badges
 
 ## License
-
-Made with ❤️ by [Zaid Amer](https://twitter.com/DevZaid)
-
 ```
 MIT License
 
